@@ -12,7 +12,7 @@ export default function InfoBox({info}){
     const HAZE_URL ="https://media.istockphoto.com/id/885559274/photo/misty-morn-over-mumbai.jpg?s=1024x1024&w=is&k=20&c=Pyfzi9SpKxFkAQeUraYGNEkjwO4jzAV2eIwQfV64wmE="
     return(
         <div >
-        <div className='flex justify-center m-6 '>
+            {info.city.length>0 ? <div className='flex justify-center m-6 '>
         <Card sx={{ minWidth:100,maxWidth: 360, maxHeight:460, minHeight:100}}>
         <CardMedia
         sx={{ height: 190 }}
@@ -35,7 +35,7 @@ export default function InfoBox({info}){
             </Typography>
         </CardContent>
         </Card>
-        </div>
+        </div> : <div></div>}
         </div>
     )
 }
