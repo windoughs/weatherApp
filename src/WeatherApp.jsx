@@ -4,13 +4,13 @@ import SearchBox from "./SearchBox"
 
 export default function WeatherApp(){
     let [weatherInfo,setWeatherInfo] = useState({
-        city:"Delhi",
-        temp:26.05,
-        tempMin:0,
-        tempMax:30,
-        humidity:4,
-        weather:"humid",
-        feels_like:24.44
+        city:"",
+        temp:"",
+        tempMin:"",
+        tempMax:"",
+        humidity:"",
+        weather:"",
+        feels_like:"",
     })
     
     let updateInfo = (newInfo)=>{
