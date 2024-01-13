@@ -42,7 +42,7 @@ export default function SearchBox({updateInfo}){
     return(
         <div className="flex flex-col text-center">
             <div >
-            <h1 className='w-full h-24 bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 font-serif text-center p-8 text-cyan-950  text-2xl sm:text-5xl sm:h-36'>Search for the city !!</h1>
+            <h1 className='w-full h-24 bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 font-serif text-center p-8 text-cyan-950  text-2xl sm:text-5xl sm:h-36'>Search for the place !!</h1>
             </div>
             <div  className='m-3'>
             <form onSubmit={onSubmitHandle}>
